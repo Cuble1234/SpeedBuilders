@@ -1,4 +1,4 @@
-package me.Cuble1234.speedbuilders.Utils;
+package me.Cuble1234.speedbuilders.utils;
 
 public class Platform {
 
