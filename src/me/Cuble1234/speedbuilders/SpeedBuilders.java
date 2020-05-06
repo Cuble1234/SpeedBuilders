@@ -1,5 +1,12 @@
 package me.Cuble1234.speedbuilders;
 
-public class SpeedBuilders {
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class SpeedBuilders extends JavaPlugin{
+	
+	@Override
+	public void onEnable() {
+		
+	}
 
 }
