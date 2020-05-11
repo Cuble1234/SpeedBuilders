@@ -1,5 +1,11 @@
 package me.Cuble1234.speedbuilders.utils;
 
-public class Platform {
+import org.bukkit.entity.Player;
 
+public class Platform {
+	private Player p;
+	
+	public Player getPlayer() {
+		return p;
+	}
 }

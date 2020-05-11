@@ -1,6 +1,7 @@
-package me.Cuble1234.speedbuilders.manager;
+package me.Cuble1234.speedbuilders.managers;
 
 import org.bukkit.ChatColor;
+import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 public class MessageManager {
@@ -19,11 +20,11 @@ public class MessageManager {
 	
 	private String BuildPrefix = ChatColor.BLUE + "Build> ";
 	
-	private void msg(Player p, String prefix, ChatColor c, String msg) {
-		p.sendMessage(prefix + " " + c + msg);
+	private void msg(CommandSender s, String prefix, ChatColor c, String msg) {
+		s.sendMessage(prefix + " " + c + msg);
 	}
 	
-	public void severe(Player p, String msg) {
+	public void severe(CommandSender p, String msg) {
 		msg(p, SpeedBuildersPrefix, ChatColor.RED, msg);
 	}
 	
